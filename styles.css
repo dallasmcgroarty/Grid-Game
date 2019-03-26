@@ -1,0 +1,37 @@
+body{
+    background-image: url('textures/BG.png');
+}
+
+.container{
+    width: 616px;
+    height: 616px;
+    position: relative;
+    
+}
+
+.bg{
+    background-image: url('textures/Crate.png');
+    width: 616px;
+    height: 616px;
+    margin-left: 10px;
+}
+
+.girl{
+    display: block;
+    max-width: 10%;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    bottom: 5px;
+    right: -10px;
+}
+
+.boy{
+    display: block;
+    width: 15%;
+    height: auto;
+    margin-left: 15px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
