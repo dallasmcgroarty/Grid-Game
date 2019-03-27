@@ -1,8 +1,12 @@
+// get boy image
 var boyObj = document.getElementsByClassName('boy');
+// get girl image
 var girlObj = document.getElementsByClassName('girl');
 
+// check for keyup presses
 document.addEventListener('keyup', checkEvent);
 
+// check the event that was pressed i.e. the number associated with the keypress
 function checkEvent (e) {
   console.log(e.which);
   switch (e.which) {
