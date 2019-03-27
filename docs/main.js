@@ -4,7 +4,7 @@ var girlObj = document.getElementsByClassName('girl');
 document.addEventListener('keyup', checkEvent);
 
 function checkEvent (e) {
-  // console.log(e.which);
+  console.log(e.which);
   switch (e.which) {
     case 68:
       moveBoyRight();
