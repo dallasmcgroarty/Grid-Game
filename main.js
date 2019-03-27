@@ -34,33 +34,73 @@ function checkEvent (e) {
 }
 // *** Move Set For Boy Object *** //
 function moveBoyRight () {
-  boyObj[0].style.left += 77 + 'px';
+  var pos = boyObj[0].offsetLeft;
+  if (pos === 559) {
+    return;
+  }
+  pos += 77;
+  boyObj[0].style.left = pos + 'px';
 }
 
 function moveBoyLeft () {
-  boyObj[0].style.left -= 77 + 'px';
+  var pos = boyObj[0].offsetLeft;
+  if (pos === 20) {
+    return;
+  }
+  pos -= 77;
+  boyObj[0].style.left = pos + 'px';
 }
 
 function moveBoyDown () {
-  boyObj[0].style.top += 77 + 'px';
+  var pos = boyObj[0].offsetTop;
+  if (pos === 539) {
+    return;
+  }
+  pos += 77;
+  boyObj[0].style.top = pos + 'px';
 }
 
 function moveBoyUp () {
-  boyObj[0].style.top -= 77 + 'px';
+  var pos = boyObj[0].offsetTop;
+  if (pos === 0) {
+    return;
+  }
+  pos -= 77;
+  boyObj[0].style.top = pos + 'px';
 }
 // *** Move Set For Girl Object **** //
 function moveGirlRight () {
-  girlObj[0].style.right -= 77 + 'px';
+  var pos = girlObj[0].offsetLeft;
+  if (pos === 550) {
+    return;
+  }
+  pos += 77;
+  girlObj[0].style.left = pos + 'px';
 }
 
 function moveGirlLeft () {
-  girlObj[0].style.right += 77 + 'px';
+  var pos = girlObj[0].offsetLeft;
+  if (pos === 11) {
+    return;
+  }
+  pos -= 77;
+  girlObj[0].style.left = pos + 'px';
 }
 
 function moveGirlDown () {
-  girlObj[0].style.bottom -= 77 + 'px';
+  var pos = girlObj[0].offsetTop;
+  if (pos === 540) {
+    return;
+  }
+  pos += 77;
+  girlObj[0].style.top = pos + 'px';
 }
 
 function moveGirlUp () {
-  girlObj[0].style.bottom += 77 + 'px';
+  var pos = girlObj[0].offsetTop;
+  if (pos === 1) {
+    return;
+  }
+  pos -= 77;
+  girlObj[0].style.top = pos + 'px';
 }
