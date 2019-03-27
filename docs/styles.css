@@ -1,0 +1,47 @@
+body{
+    background-image: url('textures/BG.png');
+}
+
+p{
+    font-family: 'Baloo Chettan', cursive;
+    margin-bottom: 0px;
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+}
+.container{
+    width: 616px;
+    height: 616px;
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 5px;
+}
+
+.bg{
+    background-image: url('textures/Crate.png');
+    width: 616px;
+    height: 616px;
+    margin-left: 10px;
+}
+
+.girl{
+    display: block;
+    max-width: 10%;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    left: 550px;
+    top: 540px;
+}
+
+.boy{
+    display: block;
+    width: 15%;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    left: 20px;
+    top: 0px;
+}
