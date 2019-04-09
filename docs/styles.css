@@ -44,4 +44,5 @@ h1{
     position: absolute;
     left: 20px;
     top: 0px;
+    transition: 0.2s;
 }
