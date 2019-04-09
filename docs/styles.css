@@ -34,6 +34,7 @@ h1{
     position: absolute;
     left: 550px;
     top: 540px;
+    transition: 0.1s
 }
 
 .boy{
@@ -44,5 +45,5 @@ h1{
     position: absolute;
     left: 20px;
     top: 0px;
-    transition: 0.2s;
+    transition: 0.1s;
 }
